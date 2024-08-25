@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/imagenes/Logo.png" alt="Logo de Alura" class="Logo">
+    </header>
+    <main>
+        <section class="encriptar">
+            <textarea class="encriptar-texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptar-aviso">
+                <img src="/imagenes/icon-exclamation.png" alt="icono exclamacion" class="icono-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button">Encriptar</button>
+                <button class="btn-desencriptar" type="button">Desencriptar</button> 
+            </div>
+        </section>
+        <section class="encriptado">
+            <textarea type="mensaje" class="encriptado-mensaje" cols="20" rows="10" readonly></textarea>
+            <div class="encriptado-contenedor">
+                <img src="/imagenes/Muñeco.png" alt="Imagen muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje ha sido encontrado</p>
+                <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button class="btn-copiar" type="button">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Encriptador de Texto - Desarrollado por Duvan Bonilla</p>
+        <div>
+            <a href="https://www.linkedin.com/in/duvan-bonilla-63257814a/" target=_blank rel="">
+                <img src="/imagenes/linkedin.png" alt="Logo LinkedIn" class="linkedin">
+            </a>
+           <a href="https://github.com/felipebonilla97" target=_blank rel="">
+                <img src="./imagenes/github.png" alt="Logo GitHub" class="github">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
